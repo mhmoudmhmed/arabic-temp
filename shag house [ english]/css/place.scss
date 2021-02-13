@@ -1,0 +1,79 @@
+/* company branches */
+.services {
+	overflow: hidden;
+	.text {
+		margin: auto;
+		text-align: center;
+		border-bottom: 2px solid #0c0c0c;
+		h4 {
+			font-size: 25px;
+			font-family: "Lemonada", cursive;
+			margin-top: 60px;
+		}
+	}
+	.col-md-12custom {
+		.list {
+			li {
+				position: relative;
+				padding-right: 25px;
+				margin-bottom: 13px;
+				span {
+					position: absolute;
+					right: initial;
+					top: 5px;
+					color: #980807;
+					font-size: 25px;
+				}
+			}
+			p {
+				margin-right: 30px;
+        font-size: 20px;
+        position: relative;
+        right: -35px;
+				span {
+					color: #777;
+				}
+			}
+		}
+	}
+	.google-map {
+		border: 1px solid #DDD;
+		padding: 4px;
+		border-radius: 4px;
+		margin-top: 40px;
+		.map {
+			background: #E5E3DF;
+			width: 100%;
+		}
+	}
+}
+
+/* media query*/
+
+@media (max-width: 767px) {
+	.icon {
+		font-size: 20px !important;
+		margin-left: 20px;
+	}
+	.content {
+		p {
+			font-size: 17px !important;
+		}
+	}
+}
+@media (max-width: 576px) {
+	.list {
+		margin-top: 25px;
+		li {
+			padding-right: 20px !important;
+			margin-bottom: 10px !important;
+			span {
+				font-size: 20px !important;
+			}
+		}
+		p {
+			margin-right: 20px !important;
+			font-size: 17px !important;
+		}
+	}
+}

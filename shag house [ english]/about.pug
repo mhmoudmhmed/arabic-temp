@@ -1,0 +1,40 @@
+//- extend
+extends index.pug
+
+//-head
+block  titleSection
+  title About us - ShagHouseone
+  link(rel='stylesheet', href='./css/about.css')
+
+//-navbar
+block navlinks
+  li.nav-item
+    a.nav-link(href='./index.html')
+      | Home
+  li.nav-item
+    a.nav-link(href='./product.html') Product
+  li.nav-item
+    a.nav-link(href='./contact.html') Contact
+  li.nav-item
+    a.nav-link(href='./job.html') Join Us
+  li.nav-item
+    a.nav-link(href='./place.html') Store Locator
+  li.nav-item.active
+    a.nav-link(href='./about.html') About Us
+      span.sr-only (current)
+  li.nav-item.dropdown
+    a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+      | Language
+    .dropdown-menu(aria-labelledby='navbarDropdown')
+      a.dropdown-item(href='#') عربي
+      a.dropdown-item(href='#') English
+
+
+//-slider
+block Slider
+
+//-contact
+block Contact
+
+//- info
+block Info

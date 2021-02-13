@@ -1,0 +1,64 @@
+/* company branches */
+.services {overflow: hidden;}
+
+.services .text {
+  margin: auto;
+  text-align: center;
+  border-bottom: 2px solid #0c0c0c;
+}
+.services .text h4 {
+  font-size: 25px;
+  font-family: "Lemonada", cursive;
+  margin-top: 60px;
+}
+.services .col-md-12custom .list li {
+  position: relative;
+  padding-right: 25px;
+  margin-bottom: 13px;
+}
+.services .col-md-12custom .list li span {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: #980807;
+  font-size: 25px;
+}
+.services .col-md-12custom .list p {margin-right: 30px;font-size: 20px;}
+
+.services .col-md-12custom .list p span {color: #777;}
+
+.services .col-md-12custom .list p:nth-of-type(2) {position: relative; right: -117px;}
+
+.services .google-map {
+  border: 1px solid #DDD;
+  padding: 4px;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+.services .google-map .map {background: #E5E3DF;width: 100%;}
+
+/* media query*/
+@media (max-width: 767px) {
+
+  .icon {font-size: 20px !important;margin-left: 20px;}
+
+  .content p {font-size: 17px !important}
+}
+@media (max-width: 576px) {
+
+  .list {margin-top: 25px;}
+
+  .list li {
+    padding-right: 20px !important;
+    margin-bottom: 10px !important;
+  }
+  .list li span {font-size: 20px !important;}
+
+  .list p {
+    margin-right: 20px !important;
+    font-size: 17px !important;
+  }
+  .list p:nth-of-type(2) {right: -100px !important;}
+}
+
+/*# sourceMappingURL=place.css.map */

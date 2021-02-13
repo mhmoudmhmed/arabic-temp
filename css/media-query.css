@@ -1,0 +1,58 @@
+/*media query*/
+
+/* top media */
+@media(max-width: 1199px){
+  .top .icon {
+      left: 0 !important;
+  }
+}
+
+/* navbar media */
+
+@media(max-width:1199px) {
+
+.navbar .collapse {
+  left: -205px !important;
+}
+}
+
+@media (max-width: 991px) {
+.collapse .nav-link {
+  margin-left: 0px !important;
+}
+}
+/*header media*/
+@media (max-width: 1319px) {
+.text {
+  margin-top: 2px !important;
+  margin-left: 40px !important;
+}
+.text h1 {
+  font-size: 25px !important;
+}
+}
+@media (max-width: 844px) {
+.text {
+  margin-top: -10px !important;
+  margin-left: 40px !important;
+  margin: auto !important;
+  width: 100% !important;
+}
+.text h1 {
+  font-size: 20px !important;
+}
+}
+/* job page media */
+/* media query */
+@media (max-width: 991px) {
+.col-md-6Custom {
+  width: 100% !important;
+  overflow: hidden;
+}
+.col-md-6Custom .form-control {
+  width: 400px !important;
+  color: #555;
+}
+}
+
+/*# sourceMappingURL=media-query.css.map */

@@ -1,0 +1,204 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+    url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.ttf) format('truetype');
+  }
+  @font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot);
+  src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+    url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.ttf) format('truetype');
+  }
+
+/* body */
+
+
+/* top */
+.top .icon {
+  left: 100px;
+}
+
+/* navbar */
+
+.header .carousel .carousel-inner {
+  margin: auto;
+
+.carousel-caption {
+    h5 {
+      font-size: 35px;
+      font-family: sans-serif;
+      font-weight: 800;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 800;
+      font-family: sans-serif;
+    }
+    .btn {
+      background: #980807;
+      color: #fff;
+      border: 1px solid #980807;
+      width: 90px !important;
+      height: 35px !important;
+      font-size: 14px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      border-radius: none !important;
+      transition: all 0.45s ease 0s;
+      line-height: 1.5;
+
+      &:hover {
+        background: #fff !important;
+        color: #980807;
+        border: 1px solid #980807;
+      }
+    }
+  }
+}
+
+/* logo img */
+.navbar-light .navbar-brand {
+  position: relative;
+}
+
+/* ul nav-link */
+.navbar {
+  .collapse {
+    left: 306px;
+
+  .nav-link {
+    font-family: sans-serif;
+    }
+    .dropdown {
+      width: 86px;
+
+      .show {
+        width: 30px;
+      }
+    }
+  }
+}
+
+/* slider */
+.searchbar {
+  margin: auto;
+  margin-top: 40px;
+  height: 50px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 7px;
+
+  .search_input{
+    color: #fff;
+    border: 0;
+    outline: 0;
+    background: #353B48;
+    width: 0;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    }
+    &:hover > .search_input{
+      padding: 0 10px;
+      width: 450px;
+      caret-color:#980807;
+      transition: width 0.4s linear;
+      }
+  
+      &:hover > .search_icon{
+      color: #fff;
+      }
+  
+      .search_icon{
+      height: 40px;
+      width: 40px;
+      float: right;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      color:#fff;
+      font-size: 30px;
+      padding: 20px;
+      }
+}
+
+/* services */
+.services .cont , .services .col-lg-4 .text {
+  text-align: left;
+  }
+
+.services .col-lg-4 .icon {
+  float: left;
+  position: relative;
+  right: 135px;
+}
+
+/* contact */
+.contact {
+  text-align: left;
+}
+
+/* info */
+.info {
+  text-align: left;
+}
+
+.info .button .btn {
+  left: 70px;
+}
+
+/* footer */
+.footer {
+  text-align: left;
+}
+
+/* media */
+@media (max-width: 1199px) {
+.top .icon {
+  left: 0 !important;
+  }
+}
+
+/* navbar media */
+
+@media(max-width:1327px) {
+
+  .navbar .collapse {
+    left: 215px;
+  }
+}
+
+@media(max-width:1199px) {
+
+  .navbar .collapse {
+    left: 90px !important;
+  }
+}
+
+@media(max-width:991px) {
+
+  .navbar .collapse {
+    text-align: initial;
+
+    .nav-link {
+      margin-left: -84px !important;
+    }
+  }
+}

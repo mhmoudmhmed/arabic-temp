@@ -1,0 +1,69 @@
+/* job form */
+
+.contact {background: #FEFEFE;}
+
+.contact .col-md-6Custom {width: 50%;}
+
+.contact .col-md-6Custom .box {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100px;
+  position: relative;
+}
+
+.contact .col-md-6Custom .box-content {
+  border-top: 2px solid #980807;
+  border-bottom: 2px solid #980807;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-radius: 8px;
+  border-top-width: 4px;
+  padding: 30px 30px 10px 30px;
+  position: relative;
+  top: -1px;
+}
+
+.contact .col-md-6Custom .box-content .form-group {margin-bottom: 15px;}
+
+.contact .col-md-6Custom .box-content .form-group label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.contact .col-md-6Custom .box-content .form-group .input-group {
+  width: 100%;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 6px;
+}
+.contact .col-md-6Custom .box-content .form-group .input-group .form-control {
+  width: 400px;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.contact .col-md-6Custom .box-content .form-group .input-group .btn {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #980807;
+  border-color: #980807 #980807 #980807;
+  float: left !important;
+  font-size: 15px;
+  width: 125px;
+}
+.contact .text {margin: 70px 30px 40px 30px;}
+
+.contact .text h6 {
+  font-size: 25px;
+  font-family: "lemonada", cursive;
+  border-bottom: 2px solid #980807;
+  text-align: center;
+  padding: 20px;
+}
+.contact .text p {font-size: 16px;}
+
+/*# sourceMappingURL=job.css.map */

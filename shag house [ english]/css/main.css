@@ -1,0 +1,104 @@
+/* defualt */
+a {text-decoration: none;}
+
+/* body */
+body {font-family: sans-serif;}
+
+/* top section */
+.top .icon {left: 100px;}
+
+/* navbar section */
+
+/* logo img navbar */
+.navbar-light .navbar-brand {position: relative;}
+
+/* ul nav-link navbar */
+.navbar .collapse {left: 306px;}
+
+.navbar .collapse .nav-link {font-family: sans-serif;}
+
+
+/* header section */
+.header { padding : 20px;}
+
+.header  img {width: 100%;}
+
+/* slider section */
+.searchbar {
+  margin: auto;
+  margin-top: 40px;
+  height: 50px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 7px;
+}
+.searchbar .search_input {
+  color: #fff;
+  border: 0;
+  outline: 0;
+  background: #353B48;
+  width: 0;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+.searchbar:hover > .search_input {
+  padding: 0 10px;
+  width: 450px;
+  caret-color: #980807;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon {color: #fff;}
+
+.searchbar .search_icon {
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px;
+}
+
+/* services section */
+.services .cont, .services .col-lg-4 .text {text-align: left;}
+
+.services .col-lg-4 .icon {
+  float: left;
+  position: relative;
+  right: 135px;
+}
+
+/* contact section */
+.contact {text-align: left;}
+
+/* info section */
+.info {text-align: left;}
+
+.info .button .btn {left: 70px;}
+
+/* footer section */
+.footer {text-align: left;}
+
+/* media query */
+
+@media (max-width: 1199px) {
+  .top .icon {left: 0 !important;}
+}
+/* navbar media */
+@media (max-width: 1327px) {
+  .navbar .collapse {left: 215px;}
+}
+@media (max-width: 1199px) {
+  .navbar .collapse {left: 90px !important;}
+}
+@media (max-width: 991px) {
+  .navbar .collapse {text-align: initial;}
+
+  .navbar .collapse .nav-link {margin-left: -84px !important;}
+}
+
+/*# sourceMappingURL=main.css.map */

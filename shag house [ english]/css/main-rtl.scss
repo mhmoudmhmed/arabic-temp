@@ -1,0 +1,475 @@
+.col-xl-6 {
+max-width : 100%;
+}
+
+.container {
+   width : 100% !important;
+}
+@font-face {
+font-family: 'Droid Arabic Kufi';
+font-style: normal;
+font-weight: 400;
+src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot);
+src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+   url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff2) format('woff2'),
+   url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.woff) format('woff'),
+   url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+font-family: 'Droid Arabic Kufi';
+font-style: normal;
+font-weight: 700;
+src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot);
+src: url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+   url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff2) format('woff2'),
+   url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.woff) format('woff'),
+   url(//fonts.gstatic.com/ea/droidarabickufi/v6/DroidKufi-Bold.ttf) format('truetype');
+}
+body {
+background: #f5f5f5;
+font-family :'Droid Arabic Kufi';
+}
+
+/* extend */
+.product .card .btn {
+background: #980807;
+color: #fff;
+border: 1px solid #980807;
+width: 90px !important;
+height: 35px !important;
+font-size: 14px;
+margin-right: 10px;
+margin-bottom: 20px;
+border-radius: none !important;
+transition: all 0.45s ease 0s;
+line-height: 1.5;
+}
+
+.header .overlay .text .btn {
+background: #980807;
+color: #fff;
+border: 1px solid #980807;
+width: 93px !important;
+height: 34px !important;
+font-size: 14px;
+margin-right: 10px;
+margin-bottom: 20px;
+border-radius: none !important;
+transition: all 0.45s ease 0s;
+line-height: 1.5;
+}
+
+/* end extend */
+/* top */
+.top {
+background: #980807;
+color: #fff;
+margin: 0 auto;
+text-align: center;
+padding-top: 8px;
+font-size: 15px;
+overflow: hidden;
+}
+.top .text p, .top .text span {
+display: inline-block;
+margin-left: 15px;
+}
+.top .icon {
+position: relative;
+top: 8px;
+left: -146px;
+margin-bottom: 20px;
+}
+.top .icon span {
+margin-left: 20px;
+}
+
+/* navbar */
+
+.navigation {
+background: #fff;
+text-align : -webkit-match-parent;
+}
+
+.navigation .navbar {
+z-index: 9999 !important;
+}
+/* the logo img */
+
+.navbar .navbar-brand {
+margin-bottom: 20px;
+}
+.navbar .navbar-brand img {
+width: 250px;
+}
+
+/* navbar icon menu on responsive*/
+.navbar .navbar-toggler {
+color: #fff;
+border-color: rgba(0, 0, 0, 0.1);
+background-color: #fff;
+border: 1px solid #980807;
+}
+/* ul li nav-link*/
+
+.navbar .collapse {
+margin-right: 0px;
+color: #0c0c0c;
+position: relative;
+top: 8px;
+left: -340px;
+margin-bottom: 20px;
+}
+
+.navbar .collapse .nav-link {
+font-size: 14px;
+font-weight: 700;
+}
+.navbar .collapse .nav-link:hover {
+color: #0c0c0c !important;
+}
+.navbar a {
+overflow: hidden;
+margin-top: 0;
+margin-bottom: 0;
+margin-right: 0;
+margin-left: 0;
+z-index: 999;
+}
+
+/* navbar when scroll */
+.navbar-ground {
+width: 100%;
+text-align : center;
+background: #fff;
+position: fixed;
+top: -70px;
+left: 0;
+transform: translateY(70px);
+transition: transform 500ms ease, background 500ms ease;
+box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+z-index: 99;
+}
+
+/* end navbar */
+/* header */
+.header {
+width: 100%;
+overflow: hidden;
+margin-bottom: 0;
+}
+
+.header .carousel .carousel-inner {
+   margin: auto;
+
+}
+
+.header .carousel .carousel-inner .carousel-item img {
+width: 100%;
+height: 450px;
+margin: auto;
+}
+.header .overlay {
+   width: 90%;
+   height: 450px;
+   margin: auto;
+   background-color: rgba(9, 9, 9, 0.7);
+}
+.header .carousel {
+
+   margin: auto;
+   background-color: rgba(9, 9, 9, 0.7);
+}
+
+/* end header */
+
+/* slider */
+.slider {
+background: #f5f5f5;
+margin-top: 0px;
+margin-bottom: 50px;
+margin: auto;
+overflow: hidden;
+}
+
+.slider .text {
+margin: auto;
+padding-top: 50px;
+text-align: center;
+}
+.slider .text h3 {
+display: inline-block;
+margin-right: 20px;
+color: #0c0c0c;
+font-family : 'Droid Arabic Kufi', sans-serif;
+font-size: 30px;
+font-weight: 900;
+border-bottom: 3px solid #0c0c0c;
+}
+.slider .popup-gallery {
+padding: 50px;
+}
+.slider .popup-gallery .card {
+margin-bottom: 20px;
+height: 100%;
+}
+.slider .popup-gallery .card .image {
+min-height: 100px;
+margin-top: 20px;
+margin: 0 auto;
+}
+.slider .popup-gallery .card .image a {
+text-decoration: none;
+}
+.slider .popup-gallery .card .image a img {
+width: 100%;
+height: 40%;
+margin-bottom: 10px;
+padding: 10px;
+}
+.slider .popup-gallery .card .content {
+text-align: right;
+margin: auto;
+padding-bottom: 50px;
+position: relative;
+top: 10px;
+right: 12px;
+}
+.slider .popup-gallery .card .content .card-text {
+font-size: 15px;
+color: #777;
+margin-bottom: 15px !important;
+text-align: right;
+line-height: 26px;
+justify-content: center;
+/* flex: none; */
+/* flex: 0 0 auto; */
+/* display: flex; */
+text-align: justify;
+text-justify: inter-word;
+}
+.slider .popup-gallery .card .content .btn-group {
+margin: auto;
+}
+.slider .popup-gallery .card .content .btn-group .btn {
+margin-top: 10px;
+margin-left: 15px;
+font-family: Droid Arabic Kufi;
+}
+.slider .popup-gallery .card .content .btn-group .btn:hover {
+background: #980807 !important;
+color: #fff;
+border: 1px solid #980807;
+}
+
+/* end slider */
+/* services */
+.services {
+background: #fff;
+padding: 80px;
+overflow: hidden;
+}
+.services .text {
+margin-bottom: 40px;
+font-weight: bold;
+font-family : 'Droid Arabic Kufi', sans-serif;
+}
+.services .text h2 {
+position: relative;
+display: inline-block;
+margin-bottom: 20px;
+border-bottom: 2px solid #0c0c0c;
+padding-bottom: 10px;
+font-size: 1.7em;
+font-weight: 900;
+font-family : 'Droid Arabic Kufi', sans-serif;
+line-height: 27px;
+}
+.services .cont {
+text-align: right;
+margin-bottom: 60px;
+}
+.services .cont p {
+color: #777;
+font-size: 16px;
+line-height: 34px;
+justify-content: start;
+text-align: justify;
+}
+.services .border {
+width: 13%;
+height: 1px;
+margin: auto;
+margin-bottom: 40px;
+background: #0c0c0c;
+color: #0c0c0c;
+}
+.services .col-lg-4 .icon, .services .col-lg-4 .text {
+display: inline-block;
+text-align: right;
+margin-left: 50px;
+}
+.services .col-lg-4 .icon {
+float: right;
+font-size: 30px;
+margin-left: 100px;
+}
+.services .col-lg-4 .icon span {
+color: #980807;
+}
+.services .col-lg-4 .text {
+position: relative;
+top: -28px;
+right: 45px;
+line-height: 25px;
+font-family: "Droid Arabic Kufi";
+font-style: normal;
+font-weight: normal;
+}
+.services .col-lg-4 .text h5 {
+font-size: 19px;
+color: #0c0c0c;
+font-family : 'Droid Arabic Kufi', sans-serif;
+}
+.services .col-lg-4 .text p {
+font-size: 16px;
+color: #777;
+}
+
+/*content*/
+.contact {
+margin: 70px 0;
+background: #fff;
+padding: 40px 0;
+text-align: right;
+overflow: hidden;
+}
+.contact .text h2 {
+color: #777;
+margin-bottom: 2em;
+font-size: 30px;
+color: #0c0c0c;
+}
+.contact ul li span, .contact ul li .add {
+display: inline-block;
+margin-bottom: 15px;
+}
+.contact ul li span {
+font-size: 28px;
+color: #980807;
+position: relative;
+top: -15px;
+margin-left: 20px;
+}
+.contact ul li h5 {
+font-size: 17px;
+}
+.contact ul li p {
+font-size: 15px;
+}
+.contact ul li p a {
+color: #797979;
+text-decoration: none;
+}
+.contact ul li h5, .contact ul li p {
+margin-left: 20px;
+color: #777777;
+}
+.contact .form .input-group input {
+border-radius: 0;
+margin-bottom: 35px;
+height: 45px;
+}
+.contact .form .input-group input[placeholder], .contact .form .input-group textarea[placeholder] {
+font-size: 13px;
+}
+.contact .form .input-group textarea {
+border: 0;
+}
+.contact .form .btn {
+width: 140px;
+padding: 8px;
+border-radius: 20px;
+justify-content: space-between;
+float: right;
+font-size: 14px;
+background: #980807;
+border: 1px solid #980807;
+}
+.contact .form .btn:hover {
+background: #F9F9FF;
+color: #980807;
+}
+
+/* info */
+.info {
+background: #F2F2F2;
+text-align: right;
+overflow: hidden;
+}
+.info .text h2 {
+font-size: 2em;
+font-weight: 0;
+font-family :'Droid Arabic Kufi', sans-serif ;
+}
+.info .text p {
+color: #343a40;
+}
+.info .button .btn {
+width: 100%;
+background: #980807 !important;
+border: none !important;
+color: #fff !important;
+position: relative;
+top: -15%;
+left: -108px;
+z-index: 9999;
+margin-top: 18px;
+min-width: 10%;
+}
+
+/* footer */
+.footer {
+margin-top: 50px;
+padding: 40px 10px 35px 10px;
+background: #0c0c0c;
+overflow: hidden;
+text-align: right;
+overflow: hidden;
+}
+.footer .foot h4 {
+margin-bottom: 20px;
+color: white;
+font-size: 18px !important;
+}
+.footer .foot ul li {
+margin-bottom: 20px;
+color: #797979;
+}
+.footer .foot ul li a {
+color: #797979;
+text-decoration: none;
+}
+.footer .foot ul li a span, .footer .foot ul li a p {
+display: inline-block;
+}
+
+/* copy right */
+.copy .text {
+margin: 0 auto;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+background: #F2F2F2;
+width: 100%;
+}
+.copy .text h2 {
+font-size: 18px;
+}
+.copy .text h2 span a {
+text-decoration: none;
+margin-right: 10px;
+color: #980807;
+}
+
+/*# sourceMappingURL=main.css.map */

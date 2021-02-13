@@ -1,0 +1,82 @@
+//- extend
+extends index.pug
+
+//-head
+block  titleSection
+  title Store Locator - ShagHouseone
+  link(rel='stylesheet', href='./css/Place.css')
+
+//-navbar
+block navlinks
+  li.nav-item
+    a.nav-link(href='./index.html')
+      | Home
+  li.nav-item
+    a.nav-link(href='./product.html') Product
+  li.nav-item
+    a.nav-link(href='./contact.html') Contact
+  li.nav-item
+    a.nav-link(href='./job.html') Join Us
+  li.nav-item.active
+    a.nav-link(href='./place.html') Store Locator
+      span.sr-only (current)
+  li.nav-item
+    a.nav-link(href='./about.html') About Us
+  li.nav-item.dropdown
+    a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+      | Language
+    .dropdown-menu(aria-labelledby='navbarDropdown')
+      a.dropdown-item(href='#') عربي
+      a.dropdown-item(href='#') English
+
+
+//- slider
+block Slider
+
+//- services
+block Services
+  .services
+    .container
+      .row
+        .col-lg-12
+          .text(data-aos='fade-down', data-aos-duration='400')
+            h4 El-Maadi store
+        .col-md-12custom
+          ul.unstyled-list.list
+            li(data-aos='fade-left', data-aos-duration='800')
+              span.ti-location-pin
+            p(data-aos='fade-left', data-aos-duration='1000')
+              | Address :
+              span 5 El-Maadi St .
+            li(data-aos='fade-left', data-aos-duration='800')
+              span.ti-user
+            p(data-aos='fade-left', data-aos-duration='1000')
+              | Phone Number : 
+              span 000 000 000
+        .col-md-12
+          .google-map
+            iframe.map(src='https://www.google.com/search?authuser=6&_ga=2.46532583.1762152213.1561908237-788219133.1558358968&q=Shag%20House%20One&ludocid=6212141414980136575&lsig=AB86z5VN5PBfXN-f783j5A5sPhLU&fbclid=IwAR2tINcOSgBJ3S_uebif7-7ZE2joZofsHqwarJf4ymkvdm7juLX5rJD7iyA', height='200', frameborder='0')
+        .col-lg-12
+          .text(data-aos='fade-down', data-aos-duration='400')
+            h4 El-Maadi Store
+        .col-md-12custom
+          ul.unstyled-list.list
+            li(data-aos='fade-left', data-aos-duration='800')
+              span.ti-location-pin
+            p(data-aos='fade-left', data-aos-duration='1000')
+              | Address :
+              span 5 El-Maadi St .
+            li(data-aos='fade-left', data-aos-duration='800')
+              span.ti-user
+            p(data-aos='fade-left', data-aos-duration='1000')
+              | Phone Number : 
+              span 000 000 000
+        .col-md-12
+          .google-map
+            iframe.map(src='https://www.google.com/search?authuser=6&_ga=2.46532583.1762152213.1561908237-788219133.1558358968&q=Shag%20House%20One&ludocid=6212141414980136575&lsig=AB86z5VN5PBfXN-f783j5A5sPhLU&fbclid=IwAR2tINcOSgBJ3S_uebif7-7ZE2joZofsHqwarJf4ymkvdm7juLX5rJD7iyA', height='200', frameborder='0')
+
+//- contact
+block Contact
+
+//-info
+block Info

@@ -1,0 +1,94 @@
+//- extend
+extends index.pug
+
+//-head
+block  titleSection
+  title Join Us - ShagHouseone
+  link(rel='stylesheet', href='./css/job.css')
+
+//-navbar
+block navlinks
+  li.nav-item
+    a.nav-link(href='./index.html')
+      | Home
+  li.nav-item
+    a.nav-link(href='./product.html') Product
+  li.nav-item
+    a.nav-link(href='./contact.html') Contact
+  li.nav-item.active
+    a.nav-link(href='./job.html') Join Us
+      span.sr-only (current)
+  li.nav-item.active
+    a.nav-link(href='./place.html') Store Locator
+  li.nav-item
+    a.nav-link(href='./about.html') About Us
+
+  li.nav-item.dropdown
+    a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+      | Language
+    .dropdown-menu(aria-labelledby='navbarDropdown')
+      a.dropdown-item(href='#') عربي
+      a.dropdown-item(href='#') English
+
+//- slider
+block Slider
+
+//- services
+block Services
+
+//- contact
+block Contact
+  .contact
+    .container
+      .row
+        .col-lg-12.col-md-12
+          .form-box
+            .row
+              .col-md-6Custom
+                .box
+                  .box-content
+                    .row
+                      .form-group(data-aos='fade-left', data-aos-duration='400')
+                        .col-lg-12
+                          label First Name
+                          .input-group.input-group-lg
+                            input.form-control(type='text')
+                    .row
+                      .form-group(data-aos='fade-left', data-aos-duration='600')
+                        .col-lg-12
+                          label Last Name
+                          .input-group.input-group-lg
+                            input.form-control(type='text')
+                    .row
+                      .form-group(data-aos='fade-left', data-aos-duration='800')
+                        .col-lg-12
+                          label E-mail
+                          .input-group.input-group-lg
+                            input.form-control(type='text')
+                    .row
+                      .form-group(data-aos='fade-left', data-aos-duration='1000')
+                        .col-lg-12
+                          label Phone Number
+                          .input-group.input-group-lg
+                            input.form-control(type='text')
+                    .row
+                      .form-group(data-aos='fade-left', data-aos-duration='1200')
+                        .col-lg-12
+                          label City
+                          .input-group.input-group-lg
+                            select.form-control(type='text')
+                              option(value='القاهرة') Cairo
+                              option(value='المنصورة') Ad-Daqahlia
+                              option(value='المنصورة') Alex
+                              option(value='المنصورة') Giza
+                              option(value='المنصورة') Qena
+                    .row
+                      .form-group(data-aos='fade-left', data-aos-duration='1300')
+                        .col-lg-6
+                        .col-lg-6
+                          .input-group.input-group-lg
+                            input.form-control.btn.btn-primary(type='submit', value='Join Us!')
+              .col-md-6Custom
+                .text(data-aos='fade-right', data-aos-duration='1400')
+                  h6 Dear Customers
+                  p When you join us you will receive all orders and purchases through the electronic services.
